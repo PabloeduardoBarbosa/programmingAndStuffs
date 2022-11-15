@@ -1,0 +1,22 @@
+<script>
+  export default{
+     data(){
+	return{
+	   count 0;
+	}
+     }
+  }
+</script>
+
+<template>
+  <button @click="count++">Count is {count++}</button>
+</template>
+
+<style>
+button {
+  font-weight: bold;
+}
+</style>
+
+In this code, I take the template and then I use it on the SCRIPT to make out of this a function (that is in this case add 1 more when the user presses the button)
+
